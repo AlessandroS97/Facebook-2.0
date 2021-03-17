@@ -45,7 +45,7 @@ body{
     border-radius: 50px;
     font-size: 18px;
     color: black;
-    font-weight: 500;
+    font-weight: 400;
 }
 .search:focus{
     outline: none;
@@ -68,25 +68,33 @@ body{
     justify-content: space-evenly;
 }
 .box1{
-    width: 250px;
+    width: 300px;
     height: 300px;
     padding: 10px;
     background: white;
+    border-radius: 10px;
 }
 .box-inner{
     padding: 10px;
-    width: 230px;
+    width: 280px;
     height: 80px;
     display: flex;
     align-items: center;
-    /* border-bottom: 2px solid ;
-    border-image: linear-gradient(to right, white 0%, white 20%, grey 20%, grey 80%,white 80%, white 100%) 2; */
-    /* box-shadow: 0px 15px 5px -15px #111; */
     box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.28);
 }
 .picture img{
     border-radius: 50px;
 }
 .text-image{
+    margin-left: 10px;
+}
+.inline{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.inline p{
+    font-size: 20px;
+    font-weight: 300;
     margin-left: 10px;
 }
