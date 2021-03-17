@@ -5,6 +5,7 @@
 body{
     height: 100vh;
     width: 100%;
+    background: rgb(243, 243, 243);
 }
 .top-bar{
     display: flex;
@@ -60,4 +61,32 @@ body{
 }
 .profile-picture img{
     border-radius: 50px;
+}
+.content{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box1{
+    width: 250px;
+    height: 300px;
+    padding: 10px;
+    background: white;
+}
+.box-inner{
+    padding: 10px;
+    width: 230px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* border-bottom: 2px solid ;
+    border-image: linear-gradient(to right, white 0%, white 20%, grey 20%, grey 80%,white 80%, white 100%) 2; */
+    /* box-shadow: 0px 15px 5px -15px #111; */
+    box-shadow: 0px 6px 5px -5px rgba(0,0,0,0.28);
+}
+.picture img{
+    border-radius: 50px;
+}
+.text-image{
+    margin-left: 10px;
 }
