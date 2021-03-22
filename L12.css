@@ -65,12 +65,14 @@ body{
 .content{
     padding-top: 10px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .box1{
     width: 300px;
     height: 300px;
     padding: 10px;
+    margin: 10px;
     background: white;
     border-radius: 10px;
 }
@@ -88,6 +90,9 @@ body{
 .text-image{
     margin-left: 10px;
 }
+.text-image p{
+    font-size: 13px;
+}
 .inline{
     display: flex;
     align-items: center;
@@ -97,4 +102,38 @@ body{
     font-size: 20px;
     font-weight: 300;
     margin-left: 10px;
+}
+.flex-row{
+    display: flex;
+    flex-direction: row;
+}
+.picture-2 img{
+    border-radius: 50px;
+    margin-top: 10px;
+    margin-right: 5px;
+
+}
+.feed{
+    padding: 10px;
+    width: 350px; 
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.box-2{
+    padding: 10px;
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+.box-2 .flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.flex p{
+    padding: 10px;
+    color: darkgray;
 }
